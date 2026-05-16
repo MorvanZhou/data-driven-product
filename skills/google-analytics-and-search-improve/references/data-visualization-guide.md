@@ -121,6 +121,13 @@ print(f"Chart saved: {output_path}")
 - **Funnel by device/channel**: Grouped funnel comparison across segments
 - **Funnel trend**: Line chart of daily conversion rates for key funnel steps
 
+**Phase 2b (Bing Webmaster Analysis)** — generate and embed when `BING_WEBMASTER_API_KEY` is configured:
+- **Bing top queries**: Horizontal bar chart of top 15 queries by Bing clicks, with CTR annotated (save as `bing_top_queries.png`)
+- **Google vs Bing CTR comparison**: Grouped bar chart comparing CTR and average position for shared top queries across both engines (save as `bing_vs_google_ctr.png`)
+- **Google vs Bing impressions comparison**: Side-by-side bar chart of impression counts for shared queries, highlighting divergence (save as `bing_vs_google_impressions.png`)
+- **Bing crawl trend**: Line chart of daily crawl counts and errors over the analysis period (save as `bing_crawl_trend.png`)
+- **Keyword research opportunities**: Horizontal bar chart of top Bing keyword suggestions by impression volume, with GSC coverage status annotated (save as `bing_keyword_opportunities.png`)
+
 **Phase 4 (Site Audit)** — generate and embed:
 - **PSI scores radar/bar**: Bar chart of Performance, SEO, Accessibility, Best Practices scores (mobile & desktop)
 - **Core Web Vitals**: Bar or gauge chart of LCP, FID/INP, CLS against Good/Needs Improvement/Poor thresholds

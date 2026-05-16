@@ -81,6 +81,50 @@
 - [ ] Images have alt attributes
 - [ ] No broken internal links
 
+## Bing Webmaster Metrics
+
+> **When to use**: When `BING_WEBMASTER_API_KEY` is configured. Bing data is analyzed alongside GSC in Phase 2.
+
+**Primary data source**: Bing Webmaster API (`bing_query.py`)
+
+**Key data retention note**: Bing only retains **6 months** of data (vs GSC's ~16 months). Set up regular data collection to avoid gaps.
+
+### Traffic Metrics
+
+| Metric | Healthy Range | Warning Signal |
+|--------|---------------|----------------|
+| Average CTR (Bing) | > 2% (overall) | < 0.5% requires optimization |
+| Average Position (Bing) | < 20 | > 30 low exposure value |
+| Impressions Trend | Steady growth or stable | Sustained decline |
+| Crawl Success Rate | > 95% | < 85% crawl issues exist |
+
+### Diagnostic Points
+
+- **High impressions, low CTR on Bing** → Title/description may not match Bing users' intent; Bing users skew older and may prefer different phrasing
+- **Keywords ranking well on Google but poorly on Bing** → Content authority signals differ; check backlink profile via `links` mode
+- **Keywords ranking well on Bing but poorly on Google** → Potential quick-win opportunity to improve Google rankings for these terms
+- **Crawl errors** → Check `crawl_stats` mode; Bing crawl issues can suppress rankings independently of Google
+- **Low Bing impressions vs Google** → Site may not be fully indexed on Bing; submit sitemap via Bing Webmaster Tools
+
+### Google vs Bing Cross-Engine Comparison
+
+| Dimension | Interpretation |
+|-----------|---------------|
+| Same top queries on both | Strong brand/content authority; keyword strategy validated |
+| Different top queries | User intent differs by engine; optimize content for each |
+| Much higher CTR on Bing | Titles/descriptions resonate better with Bing audience; apply learnings to GSC pages |
+| Much higher CTR on Google | Meta descriptions may need tuning for Bing; check if rich snippets display differently |
+| Pages ranking on Bing but not Google | Check GSC index coverage; may need internal linking improvements |
+
+### Bing-Exclusive Capabilities
+
+| Feature | Mode | Usage |
+|---------|------|-------|
+| Keyword research & volume | `keyword`, `related_keywords` | Find new keyword opportunities unavailable in GSC |
+| Backlink analysis | `links` | Identify high-value inbound links and gaps |
+| Crawl health | `crawl_stats` | Diagnose Bing-specific crawl issues |
+| Keyword + page detail | `query_page_detail` | Pinpoint exact query-page performance |
+
 ## Priority Matrix
 
 Classified by **Impact** x **Implementation Effort**:

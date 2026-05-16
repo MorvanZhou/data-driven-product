@@ -1,11 +1,11 @@
 ---
 name: google-analytics-and-search-improve
-description: Understand website goals and user journeys first, then analyze GSC/GA4 data and audit the live site to validate whether users behave as intended. Identify gaps between goals and reality, and produce actionable, goal-aligned improvement plans. Use when user wants to diagnose website problems, improve search rankings, optimize traffic, analyze Google Analytics or Search Console data, audit website performance, or create a data-backed improvement roadmap.
+description: Understand website goals and user journeys first, then analyze GSC/GA4/Bing Webmaster data and audit the live site to validate whether users behave as intended. Identify gaps between goals and reality, and produce actionable, goal-aligned improvement plans. Use when user wants to diagnose website problems, improve search rankings, optimize traffic, analyze Google Analytics, Search Console, or Bing Webmaster data, compare Google vs Bing performance, audit website performance, or create a data-backed improvement roadmap.
 ---
 
 # Goal-Driven Website Analytics & Improvement
 
-First understand what the site does and what it wants users to do, then use GSC/GA4 data combined with live-site auditing to verify whether users actually follow the intended journey. Identify the gap between goals and reality, and generate prioritized, actionable improvement plans.
+First understand what the site does and what it wants users to do, then use GSC/GA4/Bing Webmaster data combined with live-site auditing to verify whether users actually follow the intended journey. Identify the gap between goals and reality, and generate prioritized, actionable improvement plans.
 
 ## Data Storage
 
