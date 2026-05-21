@@ -10,7 +10,7 @@ Usage:
     python gsc_query.py --site-url "https://example.com" --mode inspect \
         --inspect-url "https://example.com/page"
 
-Reads .env from: .skills-data/google-analytics-and-search-improve/.env
+Reads .env from: .skills-data/data-driven-product/.env
 Env vars: GSC_SITE_URL
 """
 

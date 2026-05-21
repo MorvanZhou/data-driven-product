@@ -1,7 +1,7 @@
 [project]
-name = "google-analytics-and-search-improve"
+name = "data-driven-product"
 version = "0.1.0"
-description = "Scripts for Google Analytics, Search Console, and Bing Webmaster data collection & site auditing"
+description = "Scripts for data-driven product analysis: GA4, GSC, Bing Webmaster, Microsoft Clarity data collection & analysis"
 requires-python = ">=3.12"
 dependencies = [
     "google-api-python-client>=2.194.0",
@@ -9,5 +9,5 @@ dependencies = [
     "google-analytics-data>=0.21.0",
     "python-dotenv>=1.2.2",
     "requests>=2.33.1",
-    "matplotlib>=3.10.8",
+    "jinja2>=3.1.0",
 ]

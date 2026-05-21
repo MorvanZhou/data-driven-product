@@ -16,7 +16,7 @@ Usage:
     # Output to file
     python seo_audit.py --url "https://example.com/" --sitemap -o report.json
 
-Reads .env from: .skills-data/google-analytics-and-search-improve/.env
+Reads .env from: .skills-data/data-driven-product/.env
 Env var: SITE_URL (fallback if --url not provided)
 """
 

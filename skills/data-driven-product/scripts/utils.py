@@ -1,7 +1,7 @@
 """Shared utilities for all skill scripts.
 
 Centralizes:
-- Data directory discovery (.skills-data/google-analytics-and-search-improve/)
+- Data directory discovery (.skills-data/data-driven-product/)
 - .env loading
 - Google Service Account credential auto-discovery
 - Warning suppression for clean output
@@ -27,11 +27,11 @@ from dotenv import load_dotenv
 # Data directory discovery
 # ---------------------------------------------------------------------------
 
-_SKILL_DIR_NAME = "google-analytics-and-search-improve"
+_SKILL_DIR_NAME = "data-driven-product"
 
 
 def find_data_dir() -> Path | None:
-    """Locate .skills-data/google-analytics-and-search-improve/ by walking up
+    """Locate .skills-data/data-driven-product/ by walking up
     from this script's directory toward the filesystem root.
 
     Returns the Path if found, or None.
@@ -100,7 +100,7 @@ def require_google_credentials() -> str:
     if not path:
         print(
             "Error: No Google Service Account JSON key found.\n"
-            "Place your *.json key file in: .skills-data/google-analytics-and-search-improve/configs/",
+            "Place your *.json key file in: .skills-data/data-driven-product/configs/",
             file=sys.stderr,
         )
         sys.exit(1)

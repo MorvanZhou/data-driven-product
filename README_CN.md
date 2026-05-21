@@ -23,14 +23,14 @@
 ## 安装
 
 ```bash
-npx skills add morvanzhou/google-analytics-and-search-improve
+npx skills add morvanzhou/data-driven-product
 ```
 
 ## 快速开始
 
 告诉你的 AI 代理：
 
-> 使用 google-analytics-and-search-improve 技能分析 example.com
+> 使用 data-driven-product 技能分析 example.com
 
 代理会引导你完成配置，并自动执行完整分析。
 
@@ -51,7 +51,7 @@ npx skills add morvanzhou/google-analytics-and-search-improve
 
 > **提示**：GSC 有两种资源类型 — 网域（`sc-domain:example.com`）和网址前缀（`https://example.com`）。填错格式会导致 403 错误。
 
-详细配置步骤见 [references/gsc-api-guide.md](skills/google-analytics-and-search-improve/references/gsc-api-guide.md)。
+详细配置步骤见 [references/gsc-api-guide.md](skills/data-driven-product/references/gsc-api-guide.md)。
 
 ## 分析工作流
 
@@ -69,7 +69,7 @@ Phase 6  →  目标对齐的改进报告 + 图表
 
 ## 输出
 
-技能在 `.skills-data/google-analytics-and-search-improve/` 下生成完整的分析产出：
+技能在 `.skills-data/data-driven-product/` 下生成完整的分析产出：
 
 - **`analysis/improvement-report.md`** — 最终报告，含执行摘要、目标达成状态、P0-P3 优先行动项、执行路线图
 - **`analysis/`** — 各阶段详细报告（搜索分析、行为分析、漏斗分析、站点审计、SEO/GEO 清单）

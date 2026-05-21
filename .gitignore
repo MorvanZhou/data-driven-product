@@ -8,20 +8,15 @@ __pycache__/
 dist/
 build/
 
+.vscode/
+
 # Virtual environments
 venv/
 .venv/
-skills/google-analytics-and-search-improve/scripts/.venv/
-skills/google-analytics-and-search-improve/scripts/uv.lock
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
+skills/data-driven-product/scripts/.venv/
+skills/data-driven-product/scripts/uv.lock
 
 # Secrets
 *.env
 service-account*.json
+.claude/

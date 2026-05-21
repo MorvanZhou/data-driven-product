@@ -1,4 +1,37 @@
-# Key Metrics & Analysis Dimensions
+# Key Metrics and Analysis Dimensions
+
+## Analysis Dimensions
+
+---
+
+### 7. UX Quality (Microsoft Clarity)
+
+**Primary data source**: Clarity Data Export API
+
+| Metric | Healthy Range | Warning Signal |
+|--------|---------------|----------------|
+| Rage Click Rate | < 3% sessions | > 5% severe UX issues |
+| Dead Click Rate | < 5% sessions | > 10% clickability issues |
+| Quick Back Rate | < 10% | > 20% landing page doesn't meet expectations |
+| Scroll Depth (average) | > 60% | < 30% content not being consumed |
+| Excessive Scroll Rate | < 5% | > 10% information architecture issues |
+
+**Diagnostic points**:
+- Rage clicks concentrated on a specific page → that page has severe interaction issues
+- High dead clicks → users think they can click but can't (visual misleading)
+- High quick backs → landing page content doesn't match search intent
+- Low scroll depth → poor content quality or insufficient above-the-fold info to retain users
+- Compare by device dimension → discover mobile-specific UX issues
+
+**Correlation with GA4 metrics**:
+| Clarity Signal | GA4 Validation | Combined Assessment |
+|---------------|----------------|-------------------|
+| High rage clicks | High bounce rate | Confirms UX causes users to leave |
+| High dead clicks | Low engagement rate | Users attempt interaction but fail |
+| High quick backs | Low session duration | Content doesn't match search intent |
+| High scroll depth | But low conversion | Content engages but CTA ineffective |
+
+---
 
 ## Six Analysis Dimensions
 

@@ -13,7 +13,7 @@ Usage:
         --start-date 30daysAgo --end-date yesterday \
         --order-by="-sessions"
 
-Reads .env from: .skills-data/google-analytics-and-search-improve/.env
+Reads .env from: .skills-data/data-driven-product/.env
 Env vars: GA4_PROPERTY_ID
 """
 

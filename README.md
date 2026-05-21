@@ -23,14 +23,14 @@ Every analysis starts from what your site wants users to do. The skill finds whe
 ## Installation
 
 ```bash
-npx skills add morvanzhou/google-analytics-and-search-improve
+npx skills add morvanzhou/data-driven-product
 ```
 
 ## Quick Start
 
 Tell your AI agent:
 
-> Analyze example.com using the google-analytics-and-search-improve skill
+> Analyze example.com using the data-driven-product skill
 
 The agent will guide you through setup and run the full analysis automatically.
 
@@ -51,7 +51,7 @@ The agent will guide you through setup and run the full analysis automatically.
 
 > **Tip**: GSC has two property types — Domain (`sc-domain:example.com`) and URL-prefix (`https://example.com`). Using the wrong format causes a 403 error.
 
-See [references/gsc-api-guide.md](skills/google-analytics-and-search-improve/references/gsc-api-guide.md) for detailed setup instructions.
+See [references/gsc-api-guide.md](skills/data-driven-product/references/gsc-api-guide.md) for detailed setup instructions.
 
 ## Analysis Workflow
 
@@ -69,7 +69,7 @@ Phase 6  →  Goal-aligned improvement report with charts
 
 ## Output
 
-The skill generates a full set of analysis reports and charts in `.skills-data/google-analytics-and-search-improve/`:
+The skill generates a full set of analysis reports and charts in `.skills-data/data-driven-product/`:
 
 - **`analysis/improvement-report.md`** — Final report with executive summary, goal achievement status, P0-P3 prioritized actions, and execution roadmap
 - **`analysis/`** — Phase-by-phase detailed reports (search analysis, behavior analysis, funnel analysis, site audit, SEO/GEO checklist)

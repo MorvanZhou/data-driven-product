@@ -11,7 +11,7 @@ Usage:
     python bing_query.py --mode links -o bing_links.json
     python bing_query.py --mode crawl_stats -o bing_crawl.json
 
-Reads .env from: .skills-data/google-analytics-and-search-improve/.env
+Reads .env from: .skills-data/data-driven-product/.env
 Env vars: BING_WEBMASTER_API_KEY, SITE_URL
 """
 

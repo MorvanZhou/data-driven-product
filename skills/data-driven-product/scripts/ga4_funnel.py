@@ -28,7 +28,7 @@ Usage examples:
     # Use a JSON config file for complex filters
     python ga4_funnel.py --config funnel_config.json
 
-Reads .env from: .skills-data/google-analytics-and-search-improve/.env
+Reads .env from: .skills-data/data-driven-product/.env
 Env vars: GA4_PROPERTY_ID
 """
 
